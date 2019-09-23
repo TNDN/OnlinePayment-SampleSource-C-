@@ -92,6 +92,30 @@ public class RequestPayment
     }
 }
 
+public class RequestCancelPayment
+{
+    private int cancelType;
+    public int CancelType
+    {
+        set { cancelType = value; }
+        get { return cancelType; }
+    }
+
+    private string transactionId;
+    public string TransactionId
+    {
+        set { transactionId = value; }
+        get { return transactionId; }
+    }
+
+    private double transAmount;
+    public double TransAmount
+    {
+        set { transAmount = value; }
+        get { return transAmount; }
+    }
+}
+
 public class ErrorResult
 {
     private Result error;
@@ -132,7 +156,7 @@ public class Result
     public Result() { }
 }
 
-public class RequestPaymentResult
+public class RequestDataResult
 {
     private string data;
     public string Data
@@ -215,5 +239,69 @@ public class PartnerNotification
     {
         set { exchangeAmount = value; }
         get { return exchangeAmount; }
+    }
+}
+
+public class CreateToken
+{
+    private string partnerAPIId;
+    public string PartnerAPIId
+    {
+        set { partnerAPIId = value; }
+        get { return partnerAPIId; }
+    }
+    private string partnerAPIKey;
+    public string PartnerAPIKey
+    {
+        set { partnerAPIKey = value; }
+        get { return partnerAPIKey; }
+    }
+}
+
+public class ReeponseCancelPayment
+{
+    private CancelPayment data;
+    public CancelPayment Data
+    {
+        set { data = value; }
+        get { return data; }
+    }
+}
+
+public class CancelPayment
+{
+    private string resultCode;
+    public string ResultCode
+    {
+        set { resultCode = value; }
+        get { return resultCode; }
+    }
+
+    private string resultMessage;
+    public string ResultMessage
+    {
+        set { resultMessage = value; }
+        get { return resultMessage; }
+    }
+
+    private string resultNMessage;
+    public string ResultNMessage
+    {
+        set { resultNMessage = value; }
+        get { return resultNMessage; }
+    }
+
+    private string transactionId;
+    public string TransactionId
+    {
+        set { transactionId = value; }
+        get { return transactionId; }
+    }
+
+    private string cancelDataTime;
+    public string CancelDataTime
+    {
+        set { cancelDataTime = value; }
+        get { return cancelDataTime; }
     }
 }
