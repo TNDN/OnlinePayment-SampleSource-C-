@@ -22,13 +22,12 @@ public partial class notify_url : System.Web.UI.Page
         //Response.Write("TransactionPGCode=" + partnerNotification.TransactionPGCode + "<br/>");
         //Response.Write("OrderNo=" + partnerNotification.OrderNo + "<br/>");
 
-        //Response.Write("OrderNo=" + partnerNotification.OrderNo + "<br/>");
         //Response.Write("OrderInfo=" + partnerNotification.OrderInfo + "<br/>");
         //Response.Write("TransAmount=" + partnerNotification.TransAmount + "<br/>");
         //Response.Write("Email=" + partnerNotification.Email + "<br/>");
         //Response.Write("AdditionalInfo=" + partnerNotification.AdditionalInfo + "<br/>");
-
         //Response.Write("ExchangeCurrecy=" + partnerNotification.ExchangeCurrecy + "<br/>");
+
         //Response.Write("ExchangeAmount=" + partnerNotification.ExchangeAmount + "<br/>");
         //Response.Write("ExchangeRate=" + partnerNotification.ExchangeRate + "<br/>");
         Response.Write("<xml><returnCode><![CDATA[SUCCESS]]></returnCode></xml>");
