@@ -263,7 +263,7 @@
             <div class="element">
                 <div class="etitle">transactionId :</div>
                 <div class="einput">
-                    <asp:TextBox ID="TransactionId" name="TransactionId" value="WECHAT" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TransactionId" name="TransactionId" value="123123213123" runat="server"></asp:TextBox>
                 </div>
 
                 <br>
