@@ -329,7 +329,7 @@
                 <div class="mark">이메일</div>
             </div>
             <div class="element">
-                <div class="etitle">email : </div>
+                <div class="etitle">AdditionalInfo : </div>
                 <div class="einput">
                     <asp:TextBox ID="AdditionalInfo" name="AdditionalInfo" value="" runat="server"></asp:TextBox>
                 </div>
