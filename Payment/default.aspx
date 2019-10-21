@@ -291,7 +291,7 @@
             <div class="element">
                 <div class="etitle">notiUrl :</div>
                 <div class="einput">
-                    <asp:TextBox ID="NotiUrl" name="NotiUrl" value="http://www.tndn.co.kr/" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="NotiUrl" name="NotiUrl" value="http://www.tndn.co.kr" runat="server"></asp:TextBox>
                 </div>
                 <br>
                 <div class="mark">Notification Url(거래성공 시 데이터 전송)</div>
@@ -299,7 +299,7 @@
             <div class="element">
                 <div class="etitle">returnUrl :</div>
                 <div class="einput">
-                    <asp:TextBox ID="ReturnUrl" name="ReturnUrl" value="http://www.tndn.co.kr/" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="ReturnUrl" name="ReturnUrl" value="http://www.tndn.co.kr" runat="server"></asp:TextBox>
                 </div>
                 <br>
                 <div class="mark">Return Url(거래 성공 or 실패 결과 전송)</div>
