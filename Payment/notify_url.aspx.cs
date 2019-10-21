@@ -12,6 +12,7 @@ public partial class notify_url : System.Web.UI.Page
         {
             //FAIL로 응답 시 최대 10회까지 재 전송 처리
             Response.Write("<xml><returnCode><![CDATA[FAIL]]></returnCode></xml>");
+            return;
         }
 
         PartnerNotification partnerNotification = JsonConvert.DeserializeObject<PartnerNotification>(body);
