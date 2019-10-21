@@ -19,6 +19,14 @@ public partial class return_url : System.Web.UI.Page
         if ("SUCCESS" == resultCode)
         {
             //결제 성공
+            Response.Write("resultCode=" + resultCode + "<br/>");
+            Response.Write("resultMessage=" + resultMessage + "<br/>");
+            Response.Write("paymentType=" + paymentType + "<br/>");
+            Response.Write("orderNo=" + orderNo + "<br/>");
+            Response.Write("orderInfo=" + orderInfo + "<br/>");
+            Response.Write("transAmount=" + transAmount + "<br/>");
+            Response.Write("email=" + email + "<br/>");
+            Response.Write("additionalInfo=" + additionalInfo + "<br/>");
         }
         else
         {
